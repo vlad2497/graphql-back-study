@@ -1,15 +1,22 @@
 {
-    "name": "tinyhouse-back",
-    "version": "0.1.0",
-    "scripts": {
-        "start": "nodemon src/"
-    },
-    "dependencies": {
-        "express": "^4.17.1"
-    },
-    "devDependencies": {
-        "nodemon": "^2.0.4",
-        "ts-node": "^9.0.0",
-        "typescript": "^4.0.2"
-    }
+  "name": "tinyhouse-back",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "build": "tsc -p ./"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.8",
+    "@types/node": "^14.6.3",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "eslint": "^7.8.1",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
 }
