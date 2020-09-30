@@ -1,4 +1,4 @@
-import { ObjectID } from 'mongodb';
+/*import { ObjectID } from 'mongodb';
 import { Database, Listing } from './../lib/types';
 import { IResolvers } from 'apollo-server-express';
 
@@ -18,4 +18,4 @@ export const resolvers: IResolvers = {
   Listing: {
     id: (listing: Listing): string => listing._id.toString()
   }
-};
+};*/
